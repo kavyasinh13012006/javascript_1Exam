@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    let marks = parseInt(prompt("Enter a marks :-"));//95
+    switch (true)
+    {
+        case (marks >= 90) && (marks <= 100)://89 >= 90 && 89 <= 100
+            document.write("<h1>grade is A</h1>");
+            break;
+        case (marks >= 80) && (marks <= 89):
+            document.write("<h1>grade is B</h1>");
+            break;
+        case (marks >= 70) && (marks <= 79):
+            document.write("<h1>grade is C</h1>");
+            break;
+        case (marks >= 60) && (marks <= 69):
+            document.write("<h1>grade is D</h1>");
+            break;
+        case (marks >= 34) && (marks <= 59):
+            document.write("<h1>grade is E</h1>");
+            break;
+        default:
+            document.write("<h1>FAil</h1>")
+    }
+</script>

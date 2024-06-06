@@ -1,0 +1,47 @@
+<script type="text/javascript">
+    let recharg = parseInt(prompt("Enter 1:-Jio 2:-vi 3:-airtel"))
+    switch (recharg) {
+
+        case 1:
+            document.write("<h2>Jio recharg pack :-</h2>")
+            let jio = parseInt(prompt("The press 1:- Rs.199 28day and 1.5GB data press 2:- Rs.399 48day and 2.5GB data press 3:- Rs.599 4month and 4GB data"));
+            switch (jio) {
+                case 1: document.write("<h2>your recharg succesfull Rs.199 28day and 1.5GB data dayli </h2>");
+                    break;
+                case 2: document.write("<h2>your recharg succesfull Rs.399 48day and 2.5GB dayli </h2>");
+                    break;
+                case 3: document.write("<h2>your recharg succesfull Rs.599 4-Month  and 4GB dayli </h2>");
+                    break;
+            }
+            break;
+
+        case 2:
+            document.write("<h2>VadafoneIndia(VI) recharg pack :-</h2>");
+            let vi = parseInt(prompt("The press 1:- Rs.199 22day and 1.5GB data press 2:- Rs.299 42day and 2GB data press 3:- Rs.499 60day and 3GB data"))
+            switch (vi) {
+                case 1: document.write("<h2>your recharg succesfull Rs.199 22day and 1.5GB data dayli </h2>");
+                    break;
+                case 2: document.write("<h2>your recharg succesfull Rs.299 42day and 2GB dayli </h2>");
+                    break;
+                case 3: document.write("<h2>your recharg succesfull Rs.499 60day  and 3GB dayli </h2>");
+                    break;
+            }
+            break;
+
+        case 3:
+            document.write("<h2>Airtel recharg pack :-</h2>");
+            let airtel = parseInt(prompt("The press 1:- Rs.150 30day and 1GB data press 2:- Rs.259 40day and 2GB data press 3:- Rs.699 60day and 3.5GB data"))
+            switch (airtel) {
+                case 1: document.write("<h2>your recharg succesfull Rs.150 30day and 1GB data dayli </h2>");
+                    break;
+                case 2: document.write("<h2>your recharg succesfull Rs.259 40day and 2GB dayli </h2>");
+                    break;
+                case 3: document.write("<h2>your recharg succesfull Rs.699 60day  and 3.5GB dayli </h2>");
+                    break;
+                default:
+                    document.write("invaid value");
+                    break;
+            }
+            break;
+    }
+</script>
